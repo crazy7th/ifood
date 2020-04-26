@@ -82,6 +82,8 @@
   2.3 Breadcrumb
   2.4 Button
   2.5 Main
+  2.6 Textarea
+  2.7 Search
 */
 header.open, 
 footer.open {
@@ -164,6 +166,38 @@ main.open {
 /* 2.6 Textarea */
 textarea.materialize-textarea {
   height: 90px !important;
+}
+
+/* 2.7 Search */
+.input-search {
+  background: #fff;
+  border-radius: 10px;
+  padding: 5px 15px;
+  color: #000;
+  position: relative;
+  height: 42px;
+  margin: 10px 0;
+}
+.input-search i.prefix {
+  position: absolute;
+  height: 32px;
+  line-height: 32px;
+}
+.input-search input {
+  border: none !important;
+  margin: 0 !important;
+  height: 32px !important;
+  width: auto !important;
+  display: block;
+  padding-left: 25px !important;
+}
+.input-search input:valid,
+.input-search input:focus,
+.input-search input:active
+{
+  border-bottom: none !important;
+  -webkit-box-shadow: none !important;
+  box-shadow: none !important;
 }
 
 /* Responsive */
