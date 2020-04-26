@@ -175,18 +175,18 @@ textarea.materialize-textarea {
   padding: 5px 15px;
   color: #000;
   position: relative;
-  height: 42px;
-  margin: 10px 0;
+  height: 36;
+  margin: 15px 0;
 }
 .input-search i.prefix {
   position: absolute;
-  height: 32px;
-  line-height: 32px;
+  height: 26px;
+  line-height: 26px;
 }
 .input-search input {
   border: none !important;
   margin: 0 !important;
-  height: 32px !important;
+  height: 26px !important;
   width: auto !important;
   display: block;
   padding-left: 25px !important;
